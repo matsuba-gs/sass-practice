@@ -1,5 +1,6 @@
 # Sassのコンパイル結果を無視
 public/stylesheets/*.css
+public/stylesheets/*.css.map
 
 # macOSで生成される不要なファイル
 .DS_Store
