@@ -1,0 +1,16 @@
+# Sassのコンパイル結果を無視
+public/stylesheets/*.css
+
+# macOSで生成される不要なファイル
+.DS_Store
+
+# Node.js関連
+node_modules/
+
+# VS Codeの設定ファイル
+.vscode/
+
+# その他のログファイル
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
