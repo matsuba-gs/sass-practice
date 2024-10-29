@@ -22,8 +22,8 @@ my-sass-project/
 ### 1. リポジトリをクローン
 
 ```bash
-git clone https://github.com/your-username/my-sass-project.git
-cd my-sass-project
+git clone git@github.com:matsuba-gs/sass-practice.git
+cd sass-practice
 ```
 
 ### 2. Sassのインストール
