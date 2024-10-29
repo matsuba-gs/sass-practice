@@ -59,6 +59,14 @@ sass --watch app/sass:public/stylesheets
 
 HTMLファイル `index.html` をブラウザで開くと、スタイルが適用されたページを確認できます。
 
+または、Pythonの簡易サーバーを利用する方法もあります。
+
+```bash
+python -m http.server
+```
+
+コマンドを実行すると、デフォルトで http://localhost:8000 でローカルサーバーが立ち上がります。 ブラウザで http://localhost:8000 にアクセスすると、プロジェクトの内容が確認できます。
+
 ## 注意事項
 
 - `public/stylesheets/style.css` はコンパイルで生成されるため、Gitリポジトリに含めないよう `.gitignore` に追加しています。
